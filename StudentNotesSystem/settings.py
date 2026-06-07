@@ -127,4 +127,8 @@ LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'studentnotessystem.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
