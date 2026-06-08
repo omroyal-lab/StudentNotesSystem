@@ -104,12 +104,12 @@
         }
 
         .subject{
-            color:#4b5563;
+            color: rgb(0 0 0 / 0.80);
             margin-bottom:10px;
         }
 
         .uploader{
-            color:#6b7280;
+            color: rgb(0 0 0 / 0.80);
             margin-bottom:15px;
             font-size:14px;
         }
@@ -187,11 +187,11 @@
         <h3>{{ note.title }}</h3>
 
         <p class="subject">
-            Subject: {{ note.subject }}
+            <b>Subject:</b> {{ note.subject }}
         </p>
 
         <p class="uploader">
-            Uploaded by: {{ note.uploaded_by }}
+            <b>Uploaded by:</b> {{ note.uploaded_by }}
         </p>
 
         <a class="download-btn"
